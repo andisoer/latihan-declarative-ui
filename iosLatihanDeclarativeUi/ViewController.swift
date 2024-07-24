@@ -24,8 +24,13 @@ class ViewController: UIViewController {
         button.widthAnchor.constraint(equalToConstant: 128).isActive = true
         button.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
         
+        button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
     }
-
-
+    
+    @objc func buttonAction(sender: UIButton!) {
+        let viewController = UINavigationController(rootViewController: DetailViewController())
+        viewController.modalPresentationStyle = .fullScreen
+        present(viewController, animated: true, completion: nil)
+    }
 }
 
