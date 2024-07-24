@@ -13,6 +13,8 @@
 		CEE1F06C2C50EBC400340E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE1F06B2C50EBC400340E75 /* Assets.xcassets */; };
 		CEE1F06F2C50EBC400340E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE1F06D2C50EBC400340E75 /* LaunchScreen.storyboard */; };
 		CEE1F0772C51014E00340E75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F0762C51014E00340E75 /* DetailViewController.swift */; };
+		CEE1F07B2C51050400340E75 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F07A2C51050400340E75 /* AnotherViewController.swift */; };
+		CEE1F07D2C51052B00340E75 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F07C2C51052B00340E75 /* MyTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEE1F06E2C50EBC400340E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE1F0702C50EBC400340E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE1F0762C51014E00340E75 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEE1F07A2C51050400340E75 /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		CEE1F07C2C51052B00340E75 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CEE1F06D2C50EBC400340E75 /* LaunchScreen.storyboard */,
 				CEE1F0702C50EBC400340E75 /* Info.plist */,
 				CEE1F0762C51014E00340E75 /* DetailViewController.swift */,
+				CEE1F07A2C51050400340E75 /* AnotherViewController.swift */,
+				CEE1F07C2C51052B00340E75 /* MyTabBarController.swift */,
 			);
 			path = iosLatihanDeclarativeUi;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE1F0672C50EBC100340E75 /* ViewController.swift in Sources */,
+				CEE1F07B2C51050400340E75 /* AnotherViewController.swift in Sources */,
 				CEE1F0632C50EBC100340E75 /* AppDelegate.swift in Sources */,
 				CEE1F0652C50EBC100340E75 /* SceneDelegate.swift in Sources */,
 				CEE1F0772C51014E00340E75 /* DetailViewController.swift in Sources */,
+				CEE1F07D2C51052B00340E75 /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

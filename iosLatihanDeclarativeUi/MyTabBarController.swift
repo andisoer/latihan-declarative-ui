@@ -12,7 +12,19 @@ class MyTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // MARK: Konstruktor untuk kelas view controller
+        let firstViewController = ViewController()
+        let secondViewController = AnotherViewController()
+        
+        self.tabBar.backgroundColor = .white
+        
+        // MARK: Menambahkan tabBarItem ke dalam
+        firstViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+        
+        // MARK: Menambahkan tabBarItem dengan gambar lain
+        secondViewController.tabBarItem = UITabBarItem(title: "Menu Lain", image: .actions, tag: 1)
+        
+        viewControllers = [firstViewController, secondViewController]
     }
     
 
